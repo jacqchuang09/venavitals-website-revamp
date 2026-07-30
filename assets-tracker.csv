@@ -1,0 +1,48 @@
+Asset,Type,Status,Used On,Local Path,Drive Link,Notes
+venavitals_logo.png,Logo,Available,All pages (nav + footer),"Source Docs/logo",https://drive.google.com/file/d/1_LQFGsyQ6MDuBy0ccgTE2NJztsjWpRqs/view,Need SVG version for retina
+venavitals_icon.png,Logo mark,Available,Favicon + backed-by section,"Source Docs/logo",https://drive.google.com/file/d/1wpRTzylvUoLtQTOS7iUzc56Zs0i0oUXZ/view,Need SVG version
+favicon.svg,Favicon,NEEDED,Browser tab,,,"Derive from logo mark; need SVG"
+VeriTrack-System.JPG,Product render,Available,Home hero + Technology hero,Source Docs/device/Copy of VeriTrack-System.JPG,,
+wearable-with-app.png,Product + app,Available,Home solution,Source Docs/device/wearable-with-app.png,,
+SM-Iso1.JPG,Product render,Available,Technology hero,Source Docs/device/Copy of SM-Iso1.JPG,,
+SM-Iso2.JPG,Product render,Available,Technology hero,Source Docs/device/Copy of SM-Iso2.JPG,,
+SM-Iso3.JPG,Product render,Available,Technology hero,Source Docs/device/Copy of SM-Iso3.JPG,,
+VW-Iso1.JPG,Product render,Available,Technology hero,Source Docs/device/Copy of VW-Iso1.JPG,,
+VW-Iso2.JPG,Product render,Available,Technology hero,Source Docs/device/Copy of VW-Iso2.JPG,,
+Stretch Sensor.png,Macro on skin,Available,Technology the-sensor,Source Docs/device/Stretch Sensor.png,,
+hospital-device-and-monitor.png,In-context OR,Available,Home see-it-in-use + Anesthesiology + Tech spec,Source Docs/mobile app/hospital-device-and-monitor.png,,
+sensor_mechanism.png,Diagram,Available,Home solution + Technology how-it-works,Source Docs/graphs/sensor_mechanism.png,,
+SLEEP.png,Research figure,Available,Sleep Medicine,Source Docs/graphs/SLEEP.png,,
+HFH 004 Clipped.MP4,Real OR capture,Available,Anesthesiology hero,Source Docs/mobile app/HFH 004 Clipped.MP4,,Must confirm rights for public use
+pulse-vid-480p.mp4,Waveform loop,Available,Home hero + Tech signal + Evidence,Source Docs/graphs/pulse-vid-480p.mp4,,
+setup_VeriTrack.mp4,Workflow video,Available,Technology workflow,Source Docs/mobile app/setup_VeriTrack.mp4,,
+Sensor stretching.mp4,Macro on skin,Available,Technology sensor,Source Docs/device/Sensor stretching.mp4,,
+MedTech Innovator Best Video.mp4,Press video,Available,News,,"https://drive.google.com/file/d/1PwnuZfLYFcOKGNbKEBmpVtOypg-qWcUs/view",
+ULP-2023 grant photo.jpg,Team/award,Available,About story + News,Source Docs/team/ULP-2023 Pitch Launch Grow-110.jpg,,
+IMG_4537.jpg,Team/story,Available,About story,Source Docs/team/IMG_4537.jpg,,
+footgolf.jpg,Team/story,Available,About story,Source Docs/team/footgolf.jpg,,
+joseph.jpeg,Headshot,Available,Home quote + Clinical Evidence + Anesthesiology,Source Docs/headshots/joseph.jpeg,,
+dawn.jpeg,Headshot,Available,Clinical Evidence + Anesthesiology,Source Docs/headshots/dawn.jpeg,,
+shaista.jpg,Headshot,Available,Clinical Evidence + Anesthesiology,Source Docs/headshots/shaista.jpg,,
+gregory.webp,Headshot,Available,Clinical Evidence,Source Docs/headshots/gregory.webp,,
+ray.jpg,Headshot,Available,About founders,Source Docs/headshots/ray.jpg,,
+michelle.png,Headshot,Available,About founders,Source Docs/headshots/michelle.png,,
+josh.jpeg,Headshot,Available,About founders,Source Docs/headshots/josh.jpeg,,
+sophia.jpg,Headshot,Available,About team,Source Docs/headshots/sophia.jpg,,
+jared.jpeg,Headshot,Available,About team,Source Docs/headshots/jared.jpeg,,
+eugene.jpeg,Headshot,Available,About team,Source Docs/headshots/eugene.jpeg,,
+Real device-on-foot OR photo,Photo,NEEDED,Home hero + see-it-in-use,,,Best asset missing; priority request
+Continuous-vs-cuff comparison graphic,Illustration,NEEDED,Home problem section,,,Signature brand graphic to design
+Cuff-gap annotated waveform,Illustration,NEEDED,Home why-it-matters,,,To be designed
+Stylized Vena-vs-A-line waveform,Chart,NEEDED,Clinical Evidence how-we-compare,,,More polished than current site version
+Approved side-by-side trace (ours vs A-line),Figure,NEEDED,Technology the-signal,,,Needs cleared figure from study team
+Clinician headshot (unnamed),Headshot,NEEDED,Home quote (if Rinehart not approved),,,For fallback anonymous quote
+Backer logos SVG - Y Combinator,Logo,NEEDED,Trust bar + About,,,Confirm usage rights
+Backer logos SVG - NIH,Logo,NEEDED,Trust bar + About,,,Confirm usage rights
+Backer logos SVG - MedTech Innovator,Logo,NEEDED,Trust bar + About,,,Confirm usage rights
+Backer logos SVG - EvoNexus,Logo,NEEDED,Trust bar + About,,,Confirm usage rights
+Backer logos SVG - Samsung NEXT,Logo,NEEDED,Trust bar + About,,,Confirm usage rights
+Study site logos (UCI UCSF UVM etc.),Logos,NEEDED,Partner With Us,,,Confirm rights before publishing
+Kim et al 2019 PDF,Publication,Available,Technology IP + Evidence citation,Source Docs/publication/,https://doi.org/10.1002/adhm.201900109,DOI public; PDF for internal reference only
+VenaVitals sleep deck PDF,Source doc,Available,Sleep Medicine stats,Source Docs/sleep/,,Internal only -- do not publish directly
+510k background deck PDF,Source doc,Available,Evidence figures,Source Docs/mission/,,Internal only -- [VERIFY] which figures cleared for public use

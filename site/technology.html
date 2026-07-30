@@ -1,0 +1,321 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Technology - Vena Vitals</title>
+  <meta name="description" content="How VeriTrack works: soft capacitive sensing, beat-to-beat accuracy, foot placement. Arterial-line insight without the arterial line." />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Figtree:wght@400;500;600;700&family=Inter:wght@400;500&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+
+<nav class="nav" role="navigation" aria-label="Main">
+  <div class="container nav__inner">
+    <a href="index.html" class="nav__wordmark"><img src="assets/logos/vena-vitals-logo.png" alt="Vena Vitals" class="nav__logo" /></a>
+    <ul class="nav__links" role="list">
+      <li><a href="index.html">Home</a></li>
+      <li><a href="technology.html">Technology</a></li>
+      <li><a href="clinical-evidence.html">Clinical Evidence</a></li>
+      <li><a href="solutions.html">Solutions</a></li>
+      <li><a href="partner.html">Partner With Us</a></li>
+      <li><a href="about.html">About</a></li>
+      <li><a href="news.html">News</a></li>
+    </ul>
+    <div class="nav__cta">
+      <a href="partner.html" class="btn btn--primary btn--sm">Request a Demo</a>
+      <button class="nav__hamburger" aria-label="Open menu" aria-expanded="false"><span></span><span></span><span></span></button>
+    </div>
+  </div>
+  <nav class="nav__drawer" aria-label="Mobile menu">
+    <a href="index.html">Home</a>
+    <a href="technology.html">Technology</a>
+    <a href="clinical-evidence.html">Clinical Evidence</a>
+    <a href="solutions.html">Solutions</a>
+    <a href="partner.html">Partner With Us</a>
+    <a href="about.html">About</a>
+    <a href="news.html">News</a>
+    <a href="partner.html" class="btn btn--primary">Request a Demo</a>
+  </nav>
+</nav>
+
+<!-- HERO -->
+<section class="hero">
+  <div class="container">
+    <div class="hero__inner">
+      <div class="hero__content">
+        <p class="text-label">How It Works</p>
+        <h1>Arterial-line insight. Band-aid form factor.</h1>
+        <p class="hero__sub">VeriTrack is built on a soft capacitive sensing stack developed at UC Irvine and grounded in peer-reviewed materials science. It captures beat-to-beat arterial pressure without puncturing skin, inflating a cuff, or occupying the arm.</p>
+        <div class="hero__actions">
+          <a href="clinical-evidence.html" class="btn btn--primary btn--lg">See Clinical Evidence</a>
+          <a href="partner.html" class="btn btn--secondary btn--lg">Request a Demo</a>
+        </div>
+      </div>
+      <div class="hero__image">
+        <img src="assets/device/VeriTrack-System.JPG" alt="VeriTrack system, soft wearable blood pressure sensor" />
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- HOW IT WORKS -->
+<section class="section" style="background: var(--surface);">
+  <div class="container">
+    <div class="grid-2" style="align-items: center; gap: var(--sp-12);">
+      <div>
+        <p class="text-label">Sensing Mechanism</p>
+        <h2 style="margin-bottom: var(--sp-4);">How it works</h2>
+        <p style="margin-bottom: var(--sp-4);">The VeriTrack sensor sits over the dorsalis pedis artery on the foot. Its soft, stretchable material detects the subtle deflections of the artery beneath the skin with every heartbeat, converting that motion into a continuous blood pressure waveform: systolic, diastolic, and mean arterial pressure, beat to beat.</p>
+
+        <div class="tech-toggle">
+          <button class="tech-toggle__btn">▼ Show technical detail</button>
+          <div class="tech-toggle__content">
+            The sensing element is a wrinkled-gold (wAu) capacitive stack: a dielectric layer, silicone elastomer, air gap, and PDMS spacer. Each arterial pulse compresses the micropillar structure and changes the capacitance. An onboard algorithm converts those capacitance changes into continuous SBP, DBP, and MAP values with beat-to-beat resolution.
+          </div>
+        </div>
+      </div>
+      <figure class="img-block">
+        <img src="assets/graphs/sensor_mechanism.png" alt="Diagram of VeriTrack sensor mechanism" />
+        <figcaption>Capacitive sensing stack detects artery deflection through the skin.</figcaption>
+      </figure>
+    </div>
+  </div>
+</section>
+
+<!-- THE SENSOR -->
+<section class="section">
+  <div class="container">
+    <div class="grid-2" style="align-items: center; gap: var(--sp-12);">
+      <figure class="img-block">
+        <img src="assets/device/Stretch Sensor.png" alt="VeriTrack stretch sensor, flexible, skin-conforming" />
+        <figcaption>The VeriTrack sensor flexes and moves with the patient without losing signal.</figcaption>
+      </figure>
+      <div>
+        <p class="text-label">The Sensor</p>
+        <h2 style="margin-bottom: var(--sp-4);">Soft enough to wear. Accurate enough to trust.</h2>
+        <p style="margin-bottom: var(--sp-6);">The VeriTrack sensor is thin, flexible, and skin-conforming. It moves with the patient through position changes and motion without losing signal. Biocompatible materials mean no skin irritation over the course of a case. Applied in under five minutes in pre-op, it stays in place and monitors continuously, without the placement time, complication risk, or nursing burden of an arterial line.</p>
+        <div class="grid-2" style="gap: var(--sp-3);">
+          <div class="feature-card">
+            <div class="feature-card__icon">✓</div>
+            <h3>Skin-safe, biocompatible</h3>
+            <p>Designed for hours of wear without irritation.</p>
+          </div>
+          <div class="feature-card">
+            <div class="feature-card__icon">◎</div>
+            <h3>Thin and conformal</h3>
+            <p>Moves like skin, stays on target.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- COMPARISON TOGGLE -->
+<section class="section--sm" style="background: var(--surface);">
+  <div class="container">
+    <div class="section-header">
+      <p class="text-label">By the Numbers</p>
+      <h2>How VeriTrack compares</h2>
+      <p style="font-size: var(--text-xs); color: var(--gray-500); margin-top: var(--sp-2);">Values should be verified before publishing as final product claims.</p>
+    </div>
+    <div class="compare-toggle" role="group" aria-label="Compare monitoring methods">
+      <button class="compare-toggle__btn" data-col="veritrack">VeriTrack</button>
+      <button class="compare-toggle__btn" data-col="aline">Arterial Line</button>
+      <button class="compare-toggle__btn" data-col="cuff">Cuff</button>
+    </div>
+    <div style="overflow-x: auto;">
+      <table class="compare-table">
+        <thead>
+          <tr>
+            <th></th>
+            <th class="compare-col" data-col="veritrack">VeriTrack</th>
+            <th class="compare-col" data-col="aline">Arterial Line</th>
+            <th class="compare-col" data-col="cuff">Cuff</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td class="compare-row-label">Monitoring</td>
+            <td data-col="veritrack" class="win">Continuous, beat-to-beat</td>
+            <td data-col="aline" class="win">Continuous, beat-to-beat</td>
+            <td data-col="cuff" class="lose">Intermittent — every 3–5 min</td>
+          </tr>
+          <tr>
+            <td class="compare-row-label">Invasive</td>
+            <td data-col="veritrack" class="win">No</td>
+            <td data-col="aline" class="lose">Yes — arterial catheter</td>
+            <td data-col="cuff" class="win">No</td>
+          </tr>
+          <tr>
+            <td class="compare-row-label">Setup time</td>
+            <td data-col="veritrack" class="win">Under 5 minutes</td>
+            <td data-col="aline" class="lose">5–20 minutes</td>
+            <td data-col="cuff" class="win">Under 1 minute</td>
+          </tr>
+          <tr>
+            <td class="compare-row-label">Complication risk</td>
+            <td data-col="veritrack" class="win">None</td>
+            <td data-col="aline" class="lose">10–13%</td>
+            <td data-col="cuff" class="win">None</td>
+          </tr>
+          <tr>
+            <td class="compare-row-label">Infection risk</td>
+            <td data-col="veritrack" class="win">None</td>
+            <td data-col="aline" class="lose">0.6% per placement</td>
+            <td data-col="cuff" class="win">None</td>
+          </tr>
+          <tr>
+            <td class="compare-row-label">Requires arm access</td>
+            <td data-col="veritrack" class="win">No</td>
+            <td data-col="aline" class="lose">Yes</td>
+            <td data-col="cuff" class="lose">Yes</td>
+          </tr>
+          <tr>
+            <td class="compare-row-label">Waveform output</td>
+            <td data-col="veritrack" class="win">Yes</td>
+            <td data-col="aline" class="win">Yes</td>
+            <td data-col="cuff" class="lose">No</td>
+          </tr>
+          <tr>
+            <td class="compare-row-label">High-BMI / hypertensive patients</td>
+            <td data-col="veritrack" class="win">Validated (BMI 17–48)</td>
+            <td data-col="aline" class="win">Yes</td>
+            <td data-col="cuff" class="lose">Limited accuracy</td>
+          </tr>
+          <tr>
+            <td class="compare-row-label">Surgical field disruption</td>
+            <td data-col="veritrack" class="win">None — foot placement</td>
+            <td data-col="aline" class="lose">Potential arm dependency</td>
+            <td data-col="cuff" class="lose">Repeated cuff inflation</td>
+          </tr>
+          <tr>
+            <td class="compare-row-label">Patient comfort</td>
+            <td data-col="veritrack" class="win">Minimal</td>
+            <td data-col="aline" class="lose">Procedural pain</td>
+            <td data-col="cuff" class="lose">Arm pain from inflation</td>
+          </tr>
+          <tr>
+            <td class="compare-row-label">Accuracy vs. arterial line</td>
+            <td data-col="veritrack" class="win">0.03 mmHg mean bias</td>
+            <td data-col="aline">Gold standard</td>
+            <td data-col="cuff" class="lose">Varies; unreliable at extremes</td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+  </div>
+</section>
+
+<!-- WORKFLOW -->
+<section class="section">
+  <div class="container">
+    <div class="grid-2" style="align-items: center; gap: var(--sp-12);">
+      <div>
+        <p class="text-label">Clinical Workflow</p>
+        <h2 style="margin-bottom: var(--sp-4);">Applied in pre-op. Out of the surgical field.</h2>
+        <p style="margin-bottom: var(--sp-6);">The sensor is placed on the foot before the case begins, in pre-op, before the patient enters the OR. It stays on through the entire case and is removed after emergence. No arm access, no sterile field disruption, no interval re-application.</p>
+        <div class="steps">
+          <div class="step">
+            <div class="step__number">1</div>
+            <div class="step__body">
+              <h4>Pre-op application</h4>
+              <p>Apply the sensor to the dorsalis pedis artery on the foot in under 5 minutes.</p>
+            </div>
+          </div>
+          <div class="step">
+            <div class="step__number">2</div>
+            <div class="step__body">
+              <h4>Pair and confirm</h4>
+              <p>Bluetooth connects to the iOS app. Signal quality confirmation on screen before incision.</p>
+            </div>
+          </div>
+          <div class="step">
+            <div class="step__number">3</div>
+            <div class="step__body">
+              <h4>Continuous monitoring</h4>
+              <p>Beat-to-beat BP visible throughout the procedure, without the surgical field.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <figure class="img-block">
+        <img src="assets/mobile-app/hospital-device-and-monitor.png" alt="VeriTrack in use in the hospital setting" />
+      </figure>
+    </div>
+  </div>
+</section>
+
+<!-- IP & SCIENCE -->
+<section class="section--sm" style="background: var(--surface);">
+  <div class="container">
+    <div class="section-header">
+      <p class="text-label">IP & Science</p>
+      <h2>Patents and peer-reviewed science.</h2>
+      <p>VeriTrack is built on a suite of patents protecting the wrinkled-metal sensing technology, grounded in peer-reviewed research published in Advanced Healthcare Materials (Kim et al., 2019). The foundational paper demonstrated beat-to-beat blood pressure sensing with a soft wearable sensor, the basis for the clinical system used in operating rooms today.</p>
+    </div>
+    <div class="card card--paper">
+      <h4 style="margin-bottom: var(--sp-2);">Kim et al., 2019</h4>
+      <p style="margin-bottom: var(--sp-3);">"Soft Wearable Pressure Sensors for Beat-to-Beat Blood Pressure Monitoring." <em>Advanced Healthcare Materials</em></p>
+      <a href="https://doi.org/10.1002/adhm.201900109" target="_blank" rel="noopener" style="color: var(--signal-blue); font-size: var(--text-xs); text-decoration: underline;">doi.org/10.1002/adhm.201900109</a>
+    </div>
+  </div>
+</section>
+
+<!-- CTA -->
+<section class="cta-band">
+  <div class="container">
+    <h2>Want to see the clinical evidence?</h2>
+    <div class="cta-actions" style="margin-top: var(--sp-6);">
+      <a href="partner.html" class="btn btn--primary btn--lg">Request a Demo</a>
+      <a href="clinical-evidence.html" class="btn btn--secondary btn--lg">Read the Clinical Evidence</a>
+    </div>
+    <p class="text-muted" style="margin-top: var(--sp-4);">VeriTrack has been submitted for FDA 510(k) review and is not yet available for commercial sale.</p>
+  </div>
+</section>
+
+<footer class="footer">
+  <div class="container">
+    <div class="footer__inner">
+      <div class="footer__brand">
+        <a href="index.html" class="nav__wordmark"><img src="assets/logos/vena-vitals-logo.png" alt="Vena Vitals" class="nav__logo" /></a>
+        <p>Continuous noninvasive blood pressure monitoring for the OR and beyond.</p>
+      </div>
+      <div class="footer__col">
+        <h4>Product</h4>
+        <a href="technology.html">Technology</a>
+        <a href="clinical-evidence.html">Clinical Evidence</a>
+        <a href="solutions.html">Solutions</a>
+      </div>
+      <div class="footer__col">
+        <h4>Company</h4>
+        <a href="about.html">About</a>
+        <a href="news.html">News</a>
+        <a href="partner.html">Partner With Us</a>
+      </div>
+      <div class="footer__col">
+        <h4>Contact</h4>
+        <a href="news.html">Get in Touch</a>
+        <a href="partner.html">Request a Demo</a>
+      </div>
+    </div>
+    <div class="footer__bottom">
+      <span>© 2024 Vena Vitals. All rights reserved.</span>
+      <span>VeriTrack is not yet available for commercial sale. FDA 510(k) pending.</span>
+    </div>
+  </div>
+</footer>
+
+<div class="theme-toggle" role="group" aria-label="Theme switcher">
+  <span class="theme-toggle__label">Theme</span>
+  <button class="theme-btn active" data-theme="light">Light</button>
+  <button class="theme-btn" data-theme="dark">Dark</button>
+  <button class="theme-btn" data-theme="navy">Navy</button>
+</div>
+
+<script src="main.js"></script>
+</body>
+</html>

@@ -1,0 +1,81 @@
+/* =============================================================
+   theme-navy.css — Navy / professional override
+   Deep navy palette, same component shapes as default.
+   ============================================================= */
+:root {
+  --bg: #0B1C3A;
+  --surface: #112447;
+  --ink: #FFFFFF;
+  --gray-700: #C8D4E8;
+  --gray-500: #8A9DBF;
+  --gray-100: #1A3060;
+  --gray-300: #2A4478;
+  --red: #E85550;
+  --red-600: #D44440;
+  --red-700: #C03D39;
+  --red-100: rgba(232,85,80,0.15);
+  --panel-dark: #060F20;
+  --signal-blue: #4FC3F7;
+}
+
+body { background: var(--bg); color: var(--ink); }
+
+.nav {
+  background: #0B1C3A;
+  border-bottom-color: #1A3060;
+}
+
+.nav__links a { color: var(--gray-700); }
+.nav__links a:hover { color: #fff; }
+.nav__wordmark .wordmark-vitals { color: var(--gray-500); }
+.nav__drawer { background: #0B1C3A; }
+
+.card { background: var(--surface); border-color: #1A3060; }
+.card--surface { background: #112447; }
+
+.hero { background: var(--bg); }
+
+.trust-bar { background: #112447; border-color: #1A3060; }
+.trust-bar__pill { background: #0B1C3A; border-color: #2A4478; color: var(--gray-700); }
+
+.pullquote { background: rgba(232,85,80,0.12); }
+
+.stat-card { background: var(--surface); }
+
+.feature-card { background: var(--surface); }
+
+.spec-table th { background: var(--surface); color: var(--ink); }
+.spec-table th, .spec-table td { border-bottom-color: #1A3060; }
+.spec-table td { color: var(--gray-700); }
+
+.footer { background: var(--panel-dark); }
+
+.regulatory-band { background: #112447; }
+.regulatory-band p { color: var(--gray-500); }
+
+.notice-banner { background: #1A1A00; border-bottom-color: #5A5A00; }
+.notice-banner p { color: #F5E642; }
+
+.news-card { background: var(--surface); border-color: #1A3060; }
+.news-card__image-placeholder { background: #1A3060; }
+
+.person-card { background: var(--surface); border-color: #1A3060; }
+.person-card__photo { border-color: #2A4478; }
+.person-card__placeholder { background: #1A3060; }
+
+.site-pill { background: #1A3060; border-color: #2A4478; color: var(--gray-700); }
+
+.form-input, .form-select, .form-textarea {
+  background: var(--surface);
+  border-color: #2A4478;
+  color: var(--ink);
+}
+
+.cta-band { background: var(--surface); }
+
+.accordion-item { border-bottom-color: #1A3060; }
+.accordion-trigger { color: var(--ink); }
+
+.theme-toggle { background: var(--surface); border-color: #2A4478; border-radius: 9999px; }
+.theme-toggle__label { color: var(--gray-500); }
+.theme-btn { color: var(--gray-500); }

@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Solutions - Vena Vitals</title>
+  <meta name="description" content="VeriTrack solutions for anesthesiology, sleep medicine, and critical care." />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Figtree:wght@400;500;600;700&family=Inter:wght@400;500&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+
+<nav class="nav" role="navigation" aria-label="Main">
+  <div class="container nav__inner">
+    <a href="index.html" class="nav__wordmark"><img src="assets/logos/vena-vitals-logo.png" alt="Vena Vitals" class="nav__logo" /></a>
+    <ul class="nav__links" role="list">
+      <li><a href="index.html">Home</a></li>
+      <li><a href="technology.html">Technology</a></li>
+      <li><a href="clinical-evidence.html">Clinical Evidence</a></li>
+      <li><a href="solutions.html">Solutions</a></li>
+      <li><a href="partner.html">Partner With Us</a></li>
+      <li><a href="about.html">About</a></li>
+      <li><a href="news.html">News</a></li>
+    </ul>
+    <div class="nav__cta">
+      <a href="partner.html" class="btn btn--primary btn--sm">Request a Demo</a>
+      <button class="nav__hamburger" aria-label="Open menu" aria-expanded="false"><span></span><span></span><span></span></button>
+    </div>
+  </div>
+  <nav class="nav__drawer" aria-label="Mobile menu">
+    <a href="index.html">Home</a>
+    <a href="technology.html">Technology</a>
+    <a href="clinical-evidence.html">Clinical Evidence</a>
+    <a href="solutions.html">Solutions</a>
+    <a href="partner.html">Partner With Us</a>
+    <a href="about.html">About</a>
+    <a href="news.html">News</a>
+    <a href="partner.html" class="btn btn--primary">Request a Demo</a>
+  </nav>
+</nav>
+
+<!-- HERO -->
+<section class="hero hero--full">
+  <div class="container">
+    <div class="hero__content">
+      <p class="text-label">Where VeriTrack Fits</p>
+      <h1>Built for where pressure matters most.</h1>
+      <p class="hero__sub">Continuous, noninvasive blood pressure monitoring across clinical settings.</p>
+    </div>
+  </div>
+</section>
+
+<!-- SOLUTION CARDS -->
+<section class="section" style="background: var(--surface);">
+  <div class="container">
+    <div class="grid-3">
+
+      <!-- Anesthesiology -->
+      <div class="card" style="display: flex; flex-direction: column; gap: var(--sp-4);">
+        <div style="height: 200px; overflow: hidden; border-radius: var(--radius-md); margin: calc(-1 * var(--sp-6)) calc(-1 * var(--sp-6)) 0; background: var(--gray-100);">
+          <img src="assets/mobile-app/hospital-device-and-monitor.png" alt="VeriTrack in the OR" style="width:100%; height:100%; object-fit:cover;" />
+        </div>
+        <p class="text-label" style="margin-top: var(--sp-2);">Anesthesiology</p>
+        <h3>Every beat of every case.</h3>
+        <p style="font-size: var(--text-xs); flex: 1;">Continuous beat-to-beat BP in the OR, applied to the foot and out of the surgical field. No cuff gaps, no arterial line risk.</p>
+        <a href="anesthesiology.html" class="btn btn--secondary" style="align-self: flex-start;">Learn more →</a>
+      </div>
+
+      <!-- Sleep Medicine -->
+      <div class="card" style="display: flex; flex-direction: column; gap: var(--sp-4);">
+        <div style="height: 200px; overflow: hidden; border-radius: var(--radius-md); margin: calc(-1 * var(--sp-6)) calc(-1 * var(--sp-6)) 0; background: var(--gray-100);">
+          <img src="assets/graphs/SLEEP.png" alt="Sleep BP waveform data" style="width:100%; height:100%; object-fit:cover;" />
+        </div>
+        <p class="text-label" style="margin-top: var(--sp-2);">Sleep Medicine Research</p>
+        <h3>Beyond the AHI.</h3>
+        <p style="font-size: var(--text-xs); flex: 1;">Capture the cardiovascular impact of every apnea. Beat-to-beat BP surges through the night, invisible to standard polysomnography.</p>
+        <a href="sleep-medicine.html" class="btn btn--secondary" style="align-self: flex-start;">Learn more →</a>
+      </div>
+
+      <!-- Critical Care -->
+      <div class="card" style="display: flex; flex-direction: column; gap: var(--sp-4); opacity: 0.7;">
+        <div style="height: 200px; border-radius: var(--radius-md); margin: calc(-1 * var(--sp-6)) calc(-1 * var(--sp-6)) 0; background: var(--gray-100); display: flex; align-items: center; justify-content: center; color: var(--gray-500); font-size: var(--text-xs);">
+          Coming soon
+        </div>
+        <p class="text-label" style="margin-top: var(--sp-2);">Critical Care</p>
+        <h3>Continuous visibility between spot-checks.</h3>
+        <p style="font-size: var(--text-xs); flex: 1;">Continuous noninvasive BP for the ICU. Catch hemodynamic instability between cuff cycles without arterial line placement.</p>
+        <span class="btn btn--ghost" style="align-self: flex-start; cursor: default;">Coming soon</span>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+<!-- REGULATORY -->
+<div class="regulatory-band">
+  <div class="container">
+    <p>VeriTrack has been submitted for FDA 510(k) review. It is not yet available for commercial sale.</p>
+  </div>
+</div>
+
+<!-- CTA -->
+<section class="cta-band">
+  <div class="container">
+    <h2>Ready to evaluate VeriTrack?</h2>
+    <div class="cta-actions" style="margin-top: var(--sp-6);">
+      <a href="partner.html" class="btn btn--primary btn--lg">Request a Demo</a>
+      <a href="clinical-evidence.html" class="btn btn--secondary btn--lg">See the Evidence</a>
+    </div>
+  </div>
+</section>
+
+<footer class="footer">
+  <div class="container">
+    <div class="footer__inner">
+      <div class="footer__brand">
+        <a href="index.html" class="nav__wordmark"><img src="assets/logos/vena-vitals-logo.png" alt="Vena Vitals" class="nav__logo" /></a>
+        <p>Continuous noninvasive blood pressure monitoring for the OR and beyond.</p>
+      </div>
+      <div class="footer__col">
+        <h4>Product</h4>
+        <a href="technology.html">Technology</a>
+        <a href="clinical-evidence.html">Clinical Evidence</a>
+        <a href="solutions.html">Solutions</a>
+      </div>
+      <div class="footer__col">
+        <h4>Company</h4>
+        <a href="about.html">About</a>
+        <a href="news.html">News</a>
+        <a href="partner.html">Partner With Us</a>
+      </div>
+      <div class="footer__col">
+        <h4>Contact</h4>
+        <a href="news.html">Get in Touch</a>
+        <a href="partner.html">Request a Demo</a>
+      </div>
+    </div>
+    <div class="footer__bottom">
+      <span>© 2024 Vena Vitals. All rights reserved.</span>
+      <span>VeriTrack is not yet available for commercial sale. FDA 510(k) pending.</span>
+    </div>
+  </div>
+</footer>
+
+<div class="theme-toggle" role="group" aria-label="Theme switcher">
+  <span class="theme-toggle__label">Theme</span>
+  <button class="theme-btn active" data-theme="light">Light</button>
+  <button class="theme-btn" data-theme="dark">Dark</button>
+  <button class="theme-btn" data-theme="navy">Navy</button>
+</div>
+
+<script src="main.js"></script>
+</body>
+</html>

@@ -1,0 +1,46 @@
+<html><body style="font-family:Arial"><h1>Site Structure &amp; Requirements</h1>
+<h2>Proposed sitemap (7 pages + utility)</h2>
+<pre style="font-family:Courier New;font-size:9pt">Home
+├── Technology  (VeriTrack: how it works, specs, integration)
+├── Clinical Evidence  (validation data, publications, ongoing studies)
+├── Solutions
+│   ├── Operating Room / Anesthesiology   ← primary
+│   ├── ICU &amp; Critical Care               ← near-term
+│   └── Sleep Medicine                    ← secondary/expansion
+├── Partner With Us  (for hospitals: pilot program, economic case, demo request)
+├── About  (story, team, clinical advisors, investors/backers, careers)
+├── News
+└── Contact / Request a Demo  (form, not just mailto)
+
+Footer: Privacy Policy · FCOI Policy · LinkedIn · regulatory disclaimer</pre>
+<p>Rationale: mirrors the proven Caretaker/Retia/Eko architecture; "Partner With Us" replaces a "Buy" path because the product is pre-clearance — the conversion goal is <b>pilot/evaluation conversations</b>, not orders.</p>
+<h2>Functional requirements</h2>
+<table border="1" cellspacing="0" cellpadding="6" style="border-collapse:collapse"><tr><th style="background:#eee;text-align:left">#</th><th style="background:#eee;text-align:left">Requirement</th><th style="background:#eee;text-align:left">Priority</th></tr><tr><td>F1</td><td>Multi-page site with real URLs (no more single-page anchors) — needed for SEO, internal sharing, and credibility</td><td>Must</td></tr><tr><td>F2</td><td>Demo/contact form capturing: name, organization, role (dropdown: anesthesiologist, hospital admin, intensivist, researcher, other), email, phone (optional), message. Submissions → email + spreadsheet/CRM</td><td>Must</td></tr><tr><td>F3</td><td>"Request a Demo" button persistent in the nav on every page</td><td>Must</td></tr><tr><td>F4</td><td>Clinical Evidence page with publication entries: title, journal, year, one-line key finding, link/PDF</td><td>Must</td></tr><tr><td>F5</td><td>Downloadable one-pager PDF (tech overview + evidence summary) gated by nothing or by email — decide</td><td>Should</td></tr><tr><td>F6</td><td>News page editable by non-developers (CMS)</td><td>Should</td></tr><tr><td>F7</td><td>Analytics (GA4 or Plausible) + form-conversion tracking</td><td>Must</td></tr><tr><td>F8</td><td>Newsletter / "get updates on FDA clearance" email capture</td><td>Should</td></tr><tr><td>F9</td><td>Careers section or link</td><td>Could</td></tr><tr><td>F10</td><td>Mobile responsive, &lt;3s load, accessible (WCAG AA)</td><td>Must</td></tr></table>
+<h2>Content requirements (per page — what must exist before AI drafting)</h2>
+<table border="1" cellspacing="0" cellpadding="6" style="border-collapse:collapse"><tr><th style="background:#eee;text-align:left">Page</th><th style="background:#eee;text-align:left">Required raw inputs from team</th></tr><tr><td>Home</td><td>Approved one-sentence value prop; 3-4 trust stats (patients studied, papers, backers); 1-2 clinician quotes (with permission); hero image/render of VeriTrack</td></tr><tr><td>Technology</td><td>How-it-works explanation (layered: simple → technical); sensor photos/renders; spec table (placement site, measurement type, output, connectivity); waveform comparison graphic (VeriTrack vs A-line) if shareable</td></tr><tr><td>Clinical Evidence</td><td>Publication list (all papers/abstracts/posters); validation study summary (n, setting, comparator, headline result); statement on ISO 81060-2 / AAMI protocol if applicable; ongoing-study descriptions</td></tr><tr><td>Solutions</td><td>Per-setting pain points + how VeriTrack addresses them; OR page needs the A-line time/risk framing (10-40 min placement, infection/ischemia risk, cuff gaps)</td></tr><tr><td>Partner With Us</td><td>Pilot program description; what an evaluation involves; economic framing (no consumables story? nursing time? complication cost context); demo form</td></tr><tr><td>About</td><td>Founder bios + photos; clinical advisors (names/titles, with permission); backer logos (YC, MedTech Innovator, EvoNexus, Samsung NEXT — confirm usage rights); origin story (UCI lab → 600 patients)</td></tr><tr><td>News</td><td>5-8 backfilled items (funding, YC, publications, conference talks, 510(k) submission)</td></tr></table>
+<h2>Regulatory/legal guardrails (apply to ALL copy — give these to the AI drafter verbatim)</h2>
+<ul>
+<li>1. VeriTrack is <b>not FDA-cleared</b>. Every page that describes the product must carry: "VeriTrack has been submitted for FDA 510(k) review and is not yet available for commercial sale. Investigational use only." (exact wording to be approved by regulatory counsel)</li>
+<li>2. No efficacy/outcome claims beyond what published data supports. "Comparable to arterial line" only with the study citation attached.</li>
+<li>3. No "FDA clearance expected [date]" promises in site copy (fine for conversations, risky in writing).</li>
+<li>4. Clinician quotes require written permission; institutional logos require usage rights.</li>
+<li>5. Sleep/consumer applications described as <b>future directions / research</b>, not available products.</li>
+</ul>
+<h2>Platform: Wix (team constraint)</h2>
+<p>Everything in this plan is Wix-compatible. Use <b>Wix Studio</b> (not classic ADI) for design control. How each requirement maps:</p>
+<table border="1" cellspacing="0" cellpadding="6" style="border-collapse:collapse"><tr><th style="background:#eee;text-align:left">Requirement</th><th style="background:#eee;text-align:left">Wix implementation</th></tr><tr><td>Multi-page site, real URLs</td><td>Native — pages + SEO settings per page</td></tr><tr><td>Demo form w/ role dropdown (F2)</td><td>Wix Forms; submissions → email notification + Wix CRM contacts; add hidden "source page" field</td></tr><tr><td>Persistent "Request a Demo" in nav (F3)</td><td>Button in the Studio header (sticky header on scroll)</td></tr><tr><td>Clinical Evidence library (F4)</td><td><b>Wix CMS collection</b> (fields: title, journal, year, type, setting, key finding, link/PDF) rendered with a repeater; category filters work no-code, multi-filter needs a small Velo snippet</td></tr><tr><td>News page (F6)</td><td>Second CMS collection or Wix Blog (Blog gives RSS + social cards for free)</td></tr><tr><td>One-pager download (F5)</td><td>Wix file link (ungated) or form-gated via automation that emails the PDF</td></tr><tr><td>Analytics (F7)</td><td>Wix Analytics built in; add GA4 via Wix integrations</td></tr><tr><td>Newsletter (F8)</td><td>Wix email-marketing signup form ("Get updates on our FDA journey")</td></tr><tr><td>Speed/responsive/a11y (F10)</td><td>Studio responsive editor; compress hero media (no autoplaying video &gt;4MB); run Wix's SEO/accessibility checkers before launch</td></tr></table>
+<p>Wix-specific guardrails:</p>
+<ul>
+<li>Start from a blank Studio layout or a minimal medical/biotech template — avoid heavy template animations.</li>
+<li>Upload brand fonts rather than settling for Wix defaults; keep to 2 weights (400/500-600).</li>
+<li>The waveform hero animation: use a looping muted MP4/WebM or Lottie (Wix supports Lottie natively) rather than custom JS.</li>
+<li>Avoid Wix App Market widgets for core functionality (forms/CMS cover everything); each app adds load time.</li>
+<li>Connect the venavitals.com domain in Wix settings; set 301 redirects from any old URLs.</li>
+</ul>
+<h2>Success metrics</h2>
+<ul>
+<li>Demo-request submissions per month (primary)</li>
+<li>One-pager downloads / newsletter signups (secondary)</li>
+<li>Time-on-page for Clinical Evidence (clinician engagement proxy)</li>
+<li>Inbound mentions: "I saw the validation data on your site" in sales conversations</li>
+</ul></body></html>

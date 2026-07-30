@@ -1,0 +1,78 @@
+/* =============================================================
+   theme-dark.css — Dark / clinical override
+   Load after styles.css to override surface and text colors.
+   ============================================================= */
+:root {
+  --bg: #0E0F12;
+  --surface: #1A1D22;
+  --ink: #F2F3F4;
+  --gray-700: #CACCCE;
+  --gray-500: #8C8E90;
+  --gray-100: #2A2D33;
+  --gray-300: #3E4147;
+  --panel-dark: #07080A;
+}
+
+body { background: var(--bg); color: var(--ink); }
+
+.nav {
+  background: #0E0F12;
+  border-bottom-color: #2A2D33;
+}
+
+.nav__links a { color: var(--gray-700); }
+.nav__links a:hover { color: var(--ink); }
+
+.nav__wordmark .wordmark-vitals { color: var(--gray-500); }
+
+.nav__drawer { background: #0E0F12; }
+
+.card { background: var(--surface); border-color: #2A2D33; }
+.card--surface { background: #1A1D22; }
+
+.hero { background: var(--bg); }
+
+.trust-bar { background: #1A1D22; border-color: #2A2D33; }
+.trust-bar__pill { background: #0E0F12; border-color: #3E4147; color: var(--gray-700); }
+
+.pullquote { background: rgba(210,75,70,0.12); }
+
+.stat-card { background: var(--surface); }
+
+.feature-card { background: var(--surface); }
+
+.spec-table th { background: var(--surface); color: var(--ink); }
+.spec-table th, .spec-table td { border-bottom-color: #2A2D33; }
+.spec-table td { color: var(--gray-700); }
+
+.footer { background: var(--panel-dark); }
+
+.regulatory-band { background: #1A1D22; }
+.regulatory-band p { color: var(--gray-500); }
+
+.notice-banner { background: #2A2000; border-bottom-color: #7A5000; }
+.notice-banner p { color: #F5C842; }
+
+.news-card { background: var(--surface); border-color: #2A2D33; }
+.news-card__image-placeholder { background: #2A2D33; }
+
+.person-card { background: var(--surface); border-color: #2A2D33; }
+.person-card__photo { border-color: #2A2D33; }
+.person-card__placeholder { background: #2A2D33; }
+
+.site-pill { background: #1A1D22; border-color: #3E4147; color: var(--gray-700); }
+
+.form-input, .form-select, .form-textarea {
+  background: var(--surface);
+  border-color: #3E4147;
+  color: var(--ink);
+}
+
+.cta-band { background: var(--surface); }
+
+.accordion-item { border-bottom-color: #2A2D33; }
+.accordion-trigger { color: var(--ink); }
+
+.theme-toggle { background: var(--surface); border-color: #3E4147; border-radius: 9999px; }
+.theme-toggle__label { color: var(--gray-500); }
+.theme-btn { color: var(--gray-500); }
