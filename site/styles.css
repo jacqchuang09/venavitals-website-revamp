@@ -1181,8 +1181,8 @@ p { color: var(--gray-700); line-height: 1.7; }
 }
 
 .compare-col[data-col="veritrack"].is-active {
-  color: var(--red-700);
-  background: var(--red-100);
+  color: var(--signal-blue);
+  background: rgba(41,171,226,0.1);
 }
 
 .compare-row-label {
@@ -1201,7 +1201,7 @@ p { color: var(--gray-700); line-height: 1.7; }
 }
 
 .compare-table tbody td[data-col="veritrack"].is-active {
-  background: rgba(251,234,233,0.4);
+  background: rgba(41,171,226,0.06);
 }
 
 .compare-table tbody td:not([data-col]).is-active,
