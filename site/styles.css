@@ -173,14 +173,14 @@ p { color: var(--gray-700); line-height: 1.7; }
 .nav__wordmark .wordmark-vitals { color: var(--gray-500); }
 
 .nav__logo {
-  height: 52px;
+  height: 34px;
   width: auto;
   display: block;
 }
 
 /* Footer: invert to white on dark background */
 .footer__brand .nav__logo {
-  height: 44px;
+  height: 30px;
   filter: brightness(0) invert(1);
   opacity: 0.9;
 }
